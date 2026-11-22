@@ -96,9 +96,32 @@ main img {
 }
 
 /* information section */
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 0;
+}
+
+.information-content {
+  display: flex;
+  gap: 64px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-card {
+  width: 160px;
+}
+
 .info-box {
   width: 160px;
   height: 160px;
   border: 4px solid #3882f6;
   border-radius: 16px;
+}
+
+.info-card p {
+  text-align: center;
 }
