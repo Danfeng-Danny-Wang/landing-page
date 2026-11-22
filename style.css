@@ -195,7 +195,7 @@ header a {
 .action-button button {
   background-color: #3882f6;
   color: #e5e7eb;
-  border-color: #e5e7eb;
+  border: 2px solid #e5e7eb;
   padding: 8px 32px;
   border-radius: 8px;
   cursor: pointer;
