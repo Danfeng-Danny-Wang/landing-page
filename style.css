@@ -3,19 +3,38 @@ body {
   margin: 0;
 }
 
-/* header and hero section */
-header,
+/* header and hero section background and structure */
+.site-header,
 .hero {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
   background-color: #1f2937;
 }
 
-header {
+.container {
+  width: calc(100% - 48px);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 16px 0;
+}
+
+/* hero section */
+.header-inner {
   display: flex;
   justify-content: space-between;
-  padding-top: 16px;
+  align-items: center;
+}
+
+.hero {
+  padding: 64px 0 128px;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
 }
 
 .header-logo {
@@ -39,15 +58,6 @@ header li {
 header a {
   text-decoration: none;
   color: #f9faf8;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 32px;
-  padding-bottom: 128px;
-  padding-top: 64px;
 }
 
 .hero img {
